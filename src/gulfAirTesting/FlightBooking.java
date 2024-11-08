@@ -71,8 +71,8 @@ public class FlightBooking {
     
     public void selectTravelDates(String Date) {
         WebElement departureDateField = driver.findElement(By.name("date"));
-        departureDateField.click();
-        driver.findElement(By.xpath("//*[@id=\"{9880034F-F835-4013-9F35-D88423507789}\"]/div[4]/div/div/div/div/div/div/div/form/div[2]/div[1]/div/div[2]/div/div/div/input")).click(); // Replace date format as needed
+//        departureDateField.click();
+//        driver.findElement(By.xpath("//*[@id=\"{9880034F-F835-4013-9F35-D88423507789}\"]/div[4]/div/div/div/div/div/div/div/form/div[2]/div[1]/div/div[2]/div/div/div/input")).click(); // Replace date format as needed
     }
     
     @AfterClass
